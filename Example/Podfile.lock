@@ -1,0 +1,16 @@
+PODS:
+  - SHAlert (0.1.0)
+
+DEPENDENCIES:
+  - SHAlert (from `../`)
+
+EXTERNAL SOURCES:
+  SHAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHAlert: c789126bb8b7dfcc587f25240b77f89da953bb37
+
+PODFILE CHECKSUM: 3f3e9fa3639e8bd03c4e2dfc7d6203ce7ed3cd44
+
+COCOAPODS: 1.11.3

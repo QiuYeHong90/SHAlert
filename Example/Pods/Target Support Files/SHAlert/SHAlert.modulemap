@@ -1,0 +1,6 @@
+framework module SHAlert {
+  umbrella header "SHAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		710A9A122A1783D400B88F13 /* SwitchViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A9A0D2A1783D400B88F13 /* SwitchViewAction.swift */; };
+		710A9A132A1783D400B88F13 /* TipAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710A9A0E2A1783D400B88F13 /* TipAlertViewController.xib */; };
+		710A9A142A1783D400B88F13 /* TipAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A9A0F2A1783D400B88F13 /* TipAlertViewController.swift */; };
+		710A9A162A1783D400B88F13 /* SwitchViewAction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710A9A112A1783D400B88F13 /* SwitchViewAction.xib */; };
 		8F1A74FF0695773EEB82D316 /* Pods_SHAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A0DA272B8CC2DD30AF238D /* Pods_SHAlert_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,13 +43,18 @@
 		607FACE51AFB9204008FA782 /* SHAlert_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAlert_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		71E451428A59CEEFF83C9C3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		78DDF3B808A5EC6BEC0A5E3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		710A9A0D2A1783D400B88F13 /* SwitchViewAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewAction.swift; sourceTree = "<group>"; };
+		710A9A0E2A1783D400B88F13 /* TipAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipAlertViewController.xib; sourceTree = "<group>"; };
+		710A9A0F2A1783D400B88F13 /* TipAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipAlertViewController.swift; sourceTree = "<group>"; };
+		710A9A112A1783D400B88F13 /* SwitchViewAction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchViewAction.xib; sourceTree = "<group>"; };
+		710A9A172A17886D00B88F13 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		71E451428A59CEEFF83C9C3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78DDF3B808A5EC6BEC0A5E3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7A019FF50E8ADE7616B21A1D /* Pods_SHAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A0DA272B8CC2DD30AF238D /* Pods_SHAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6441EEE7BCD096D852F671 /* Pods-SHAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-SHAlert_Example/Pods-SHAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D02D60A95201998DC3FC81D3 /* Pods-SHAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-SHAlert_Tests/Pods-SHAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8DBCE5A97ACAD9EC45D08FF /* SHAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHAlert.podspec; path = ../SHAlert.podspec; sourceTree = "<group>"; };
+		D8DBCE5A97ACAD9EC45D08FF /* SHAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHAlert.podspec; path = ../SHAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC0F5DBF52F3017D8D330786 /* Pods-SHAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SHAlert_Tests/Pods-SHAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				710A9A0D2A1783D400B88F13 /* SwitchViewAction.swift */,
+				710A9A112A1783D400B88F13 /* SwitchViewAction.xib */,
+				710A9A0F2A1783D400B88F13 /* TipAlertViewController.swift */,
+				710A9A0E2A1783D400B88F13 /* TipAlertViewController.xib */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -142,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				D8DBCE5A97ACAD9EC45D08FF /* SHAlert.podspec */,
+				710A9A172A17886D00B88F13 /* test.gif */,
 				71E451428A59CEEFF83C9C3C /* README.md */,
 				78DDF3B808A5EC6BEC0A5E3F /* LICENSE */,
 			);
@@ -156,7 +170,6 @@
 				FC0F5DBF52F3017D8D330786 /* Pods-SHAlert_Tests.debug.xcconfig */,
 				D02D60A95201998DC3FC81D3 /* Pods-SHAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,7 +262,9 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				710A9A162A1783D400B88F13 /* SwitchViewAction.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				710A9A132A1783D400B88F13 /* TipAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +348,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				710A9A122A1783D400B88F13 /* SwitchViewAction.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				710A9A142A1783D400B88F13 /* TipAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +437,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -465,10 +484,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -479,12 +499,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SHAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -494,12 +515,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SHAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHAlert_Example.app/SHAlert_Example";
 			};
 			name = Debug;
@@ -538,7 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHAlert_Example.app/SHAlert_Example";
 			};
 			name = Release;
