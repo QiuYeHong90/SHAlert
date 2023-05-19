@@ -5,7 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SHAlert.svg?style=flat)](https://cocoapods.org/pods/SHAlert)
 [![Platform](https://img.shields.io/cocoapods/p/SHAlert.svg?style=flat)](https://cocoapods.org/pods/SHAlert)
 
-## Example
+## 仿写系统弹窗
+
+![img](https://raw.githubusercontent.com/QiuYeHong90/SHAlert/master/Example/test.gif)
+
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -17,7 +20,7 @@ SHAlert is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SHAlert'
+pod 'SHAlert' :git => 'https://github.com/QiuYeHong90/SHAlert.git'
 ```
 
 ## Author
