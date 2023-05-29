@@ -18,6 +18,8 @@
 		710A9A132A1783D400B88F13 /* TipAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710A9A0E2A1783D400B88F13 /* TipAlertViewController.xib */; };
 		710A9A142A1783D400B88F13 /* TipAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A9A0F2A1783D400B88F13 /* TipAlertViewController.swift */; };
 		710A9A162A1783D400B88F13 /* SwitchViewAction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710A9A112A1783D400B88F13 /* SwitchViewAction.xib */; };
+		717476DF2A2484EC0049164E /* TestNormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717476DD2A2484EC0049164E /* TestNormalViewController.swift */; };
+		717476E02A2484EC0049164E /* TestNormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717476DE2A2484EC0049164E /* TestNormalViewController.xib */; };
 		8F1A74FF0695773EEB82D316 /* Pods_SHAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A0DA272B8CC2DD30AF238D /* Pods_SHAlert_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		710A9A0F2A1783D400B88F13 /* TipAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipAlertViewController.swift; sourceTree = "<group>"; };
 		710A9A112A1783D400B88F13 /* SwitchViewAction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchViewAction.xib; sourceTree = "<group>"; };
 		710A9A172A17886D00B88F13 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		717476DD2A2484EC0049164E /* TestNormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNormalViewController.swift; sourceTree = "<group>"; };
+		717476DE2A2484EC0049164E /* TestNormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestNormalViewController.xib; sourceTree = "<group>"; };
 		71E451428A59CEEFF83C9C3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		78DDF3B808A5EC6BEC0A5E3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7A019FF50E8ADE7616B21A1D /* Pods_SHAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +125,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				717476DD2A2484EC0049164E /* TestNormalViewController.swift */,
+				717476DE2A2484EC0049164E /* TestNormalViewController.xib */,
 			);
 			name = "Example for SHAlert";
 			path = SHAlert;
@@ -263,6 +269,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				710A9A162A1783D400B88F13 /* SwitchViewAction.xib in Resources */,
+				717476E02A2484EC0049164E /* TestNormalViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				710A9A132A1783D400B88F13 /* TipAlertViewController.xib in Resources */,
 			);
@@ -349,6 +356,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				710A9A122A1783D400B88F13 /* SwitchViewAction.swift in Sources */,
+				717476DF2A2484EC0049164E /* TestNormalViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				710A9A142A1783D400B88F13 /* TipAlertViewController.swift in Sources */,
 			);

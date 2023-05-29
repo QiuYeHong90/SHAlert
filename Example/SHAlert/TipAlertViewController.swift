@@ -16,7 +16,23 @@ class TipAlertViewController: BaseSHAlertViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btnClick(_ sender: Any) {
+        
+        
+        
+        let actionSheet = TestNormalViewController.init()
+        
+       
+        self.present(actionSheet, animated: true)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let animat = self.animationController(forPresented: self, presenting: self, source: self)
+//        animat
+    }
+    
     /*
     // MARK: - Navigation
 
